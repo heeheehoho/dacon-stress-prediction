@@ -79,7 +79,7 @@ jupyter notebook lgbm_baseline.ipynb
 
 ## 🙋‍♀️ Contact
 
-- 작성자: [jungheeho](https://github.com/your-github-id)
-- 문의: jungheeho@email.com
+- 작성자: [jungheeho](https://github.com/heeheehoho)
+- 문의: heraokok@naver.com
 
 > 본 프로젝트는 DACON 스트레스 지수 예측 대회를 기반으로 진행되었습니다.
