@@ -1,0 +1,9 @@
+prefix=/Users/jungheeho/Desktop/DACON/스트레스지수예측/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: OpenCL
+Description: Khronos OpenCL ICD Loader
+Requires: OpenCL-Headers
+Version: 3.0
+Libs: -L${libdir} -lOpenCL

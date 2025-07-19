@@ -1,0 +1,547 @@
+{
+  "build": "cpu_h77c5084_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "lightgbm 4.6.0 cpu_*_2"
+  ],
+  "depends": [
+    "__osx >=11.0",
+    "khronos-opencl-icd-loader >=2024.10.24",
+    "libboost >=1.86.0,<1.87.0a0",
+    "libcxx >=18",
+    "llvm-openmp >=18.1.8"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/liblightgbm-4.6.0-cpu_h77c5084_2",
+  "features": "",
+  "files": [
+    "include/LightGBM/application.h",
+    "include/LightGBM/arrow.h",
+    "include/LightGBM/arrow.tpp",
+    "include/LightGBM/bin.h",
+    "include/LightGBM/boosting.h",
+    "include/LightGBM/c_api.h",
+    "include/LightGBM/config.h",
+    "include/LightGBM/cuda/cuda_algorithms.hpp",
+    "include/LightGBM/cuda/cuda_column_data.hpp",
+    "include/LightGBM/cuda/cuda_metadata.hpp",
+    "include/LightGBM/cuda/cuda_metric.hpp",
+    "include/LightGBM/cuda/cuda_objective_function.hpp",
+    "include/LightGBM/cuda/cuda_random.hpp",
+    "include/LightGBM/cuda/cuda_row_data.hpp",
+    "include/LightGBM/cuda/cuda_split_info.hpp",
+    "include/LightGBM/cuda/cuda_tree.hpp",
+    "include/LightGBM/cuda/cuda_utils.hu",
+    "include/LightGBM/cuda/vector_cudahost.h",
+    "include/LightGBM/dataset.h",
+    "include/LightGBM/dataset_loader.h",
+    "include/LightGBM/export.h",
+    "include/LightGBM/feature_group.h",
+    "include/LightGBM/meta.h",
+    "include/LightGBM/metric.h",
+    "include/LightGBM/network.h",
+    "include/LightGBM/objective_function.h",
+    "include/LightGBM/prediction_early_stop.h",
+    "include/LightGBM/sample_strategy.h",
+    "include/LightGBM/train_share_states.h",
+    "include/LightGBM/tree.h",
+    "include/LightGBM/tree_learner.h",
+    "include/LightGBM/utils/array_args.h",
+    "include/LightGBM/utils/binary_writer.h",
+    "include/LightGBM/utils/byte_buffer.h",
+    "include/LightGBM/utils/chunked_array.hpp",
+    "include/LightGBM/utils/common.h",
+    "include/LightGBM/utils/fast_double_parser.h",
+    "include/LightGBM/utils/file_io.h",
+    "include/LightGBM/utils/fmt/args.h",
+    "include/LightGBM/utils/fmt/base.h",
+    "include/LightGBM/utils/fmt/chrono.h",
+    "include/LightGBM/utils/fmt/color.h",
+    "include/LightGBM/utils/fmt/compile.h",
+    "include/LightGBM/utils/fmt/core.h",
+    "include/LightGBM/utils/fmt/format-inl.h",
+    "include/LightGBM/utils/fmt/format.h",
+    "include/LightGBM/utils/fmt/os.h",
+    "include/LightGBM/utils/fmt/ostream.h",
+    "include/LightGBM/utils/fmt/printf.h",
+    "include/LightGBM/utils/fmt/ranges.h",
+    "include/LightGBM/utils/fmt/std.h",
+    "include/LightGBM/utils/fmt/xchar.h",
+    "include/LightGBM/utils/json11.h",
+    "include/LightGBM/utils/log.h",
+    "include/LightGBM/utils/openmp_wrapper.h",
+    "include/LightGBM/utils/pipeline_reader.h",
+    "include/LightGBM/utils/random.h",
+    "include/LightGBM/utils/text_reader.h",
+    "include/LightGBM/utils/threading.h",
+    "include/LightGBM/utils/yamc/alternate_shared_mutex.hpp",
+    "include/LightGBM/utils/yamc/yamc_rwlock_sched.hpp",
+    "include/LightGBM/utils/yamc/yamc_shared_lock.hpp",
+    "lib/lib_lightgbm.dylib"
+  ],
+  "fn": "liblightgbm-4.6.0-cpu_h77c5084_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/liblightgbm-4.6.0-cpu_h77c5084_2",
+    "type": 1
+  },
+  "md5": "6915536846b7056a5e57a0af7674f1e6",
+  "name": "liblightgbm",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/liblightgbm-4.6.0-cpu_h77c5084_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/LightGBM/application.h",
+        "path_type": "hardlink",
+        "sha256": "12dc73c6c5e8418da42f540a995120a36e497642d780e4f9e85e071709da506b",
+        "sha256_in_prefix": "12dc73c6c5e8418da42f540a995120a36e497642d780e4f9e85e071709da506b",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "include/LightGBM/arrow.h",
+        "path_type": "hardlink",
+        "sha256": "805d8ca066e1c22071af85685a0785ef53077923de8083399bac5bf28872e9ba",
+        "sha256_in_prefix": "805d8ca066e1c22071af85685a0785ef53077923de8083399bac5bf28872e9ba",
+        "size_in_bytes": 9304
+      },
+      {
+        "_path": "include/LightGBM/arrow.tpp",
+        "path_type": "hardlink",
+        "sha256": "fdc1701a25aebed5aaa2eb975cf63b81180bcc89457964161550819e24ea032d",
+        "sha256_in_prefix": "fdc1701a25aebed5aaa2eb975cf63b81180bcc89457964161550819e24ea032d",
+        "size_in_bytes": 7131
+      },
+      {
+        "_path": "include/LightGBM/bin.h",
+        "path_type": "hardlink",
+        "sha256": "3cb035389e6872e39a32ad667b08cc5c4005d030ce010a2ec7fedd735d3416d8",
+        "sha256_in_prefix": "3cb035389e6872e39a32ad667b08cc5c4005d030ce010a2ec7fedd735d3416d8",
+        "size_in_bytes": 24592
+      },
+      {
+        "_path": "include/LightGBM/boosting.h",
+        "path_type": "hardlink",
+        "sha256": "aaebb8c928887ef18339cbcee5f4f1ed3b3c2877a2467625a69123e9545e6864",
+        "sha256_in_prefix": "aaebb8c928887ef18339cbcee5f4f1ed3b3c2877a2467625a69123e9545e6864",
+        "size_in_bytes": 11046
+      },
+      {
+        "_path": "include/LightGBM/c_api.h",
+        "path_type": "hardlink",
+        "sha256": "48a970b455fc6f405c51cb76727aef0bb77df74d983ddb351b71e70012f7da85",
+        "sha256_in_prefix": "48a970b455fc6f405c51cb76727aef0bb77df74d983ddb351b71e70012f7da85",
+        "size_in_bytes": 84908
+      },
+      {
+        "_path": "include/LightGBM/config.h",
+        "path_type": "hardlink",
+        "sha256": "c5f3c547b55f7b245fda3311a41d453f3eebf9a750cfbbfc682adbd22de04456",
+        "sha256_in_prefix": "c5f3c547b55f7b245fda3311a41d453f3eebf9a750cfbbfc682adbd22de04456",
+        "size_in_bytes": 71475
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_algorithms.hpp",
+        "path_type": "hardlink",
+        "sha256": "67dbef6f393a94244977558d0a86af72bf1d4d1ebbb5098433223b29f58e614b",
+        "sha256_in_prefix": "67dbef6f393a94244977558d0a86af72bf1d4d1ebbb5098433223b29f58e614b",
+        "size_in_bytes": 25615
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_column_data.hpp",
+        "path_type": "hardlink",
+        "sha256": "14437930393344918db5adf9848f2caa643cfda8e1a35e4cf165e490d2c484dd",
+        "sha256_in_prefix": "14437930393344918db5adf9848f2caa643cfda8e1a35e4cf165e490d2c484dd",
+        "size_in_bytes": 5494
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_metadata.hpp",
+        "path_type": "hardlink",
+        "sha256": "0c649a27190c435a527103d5ce9222729fc958bc1602798ac416e3afb0ad0ac4",
+        "sha256_in_prefix": "0c649a27190c435a527103d5ce9222729fc958bc1602798ac416e3afb0ad0ac4",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_metric.hpp",
+        "path_type": "hardlink",
+        "sha256": "2350da468b192ee1b4fac4e85f1bae1270741008aaffcb8d4f9440216b840419",
+        "sha256_in_prefix": "2350da468b192ee1b4fac4e85f1bae1270741008aaffcb8d4f9440216b840419",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_objective_function.hpp",
+        "path_type": "hardlink",
+        "sha256": "f238bac2f40a956df289b4b875f09d95cca1cbbbc441267a473e156e41562465",
+        "sha256_in_prefix": "f238bac2f40a956df289b4b875f09d95cca1cbbbc441267a473e156e41562465",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_random.hpp",
+        "path_type": "hardlink",
+        "sha256": "95db3b7fb0418e419d380d84be80692e2787e51a001bcd85069b5647c8050b5c",
+        "sha256_in_prefix": "95db3b7fb0418e419d380d84be80692e2787e51a001bcd85069b5647c8050b5c",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_row_data.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a55776a82e2d17e29b5ea1cb91ab316146f60634e99d4461943d4f3a464db64",
+        "sha256_in_prefix": "2a55776a82e2d17e29b5ea1cb91ab316146f60634e99d4461943d4f3a464db64",
+        "size_in_bytes": 6812
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_split_info.hpp",
+        "path_type": "hardlink",
+        "sha256": "1f0122a1b0eb32c1cc9af28720205b6fc01327aecb81cd5e4403867d2a7ad378",
+        "sha256_in_prefix": "1f0122a1b0eb32c1cc9af28720205b6fc01327aecb81cd5e4403867d2a7ad378",
+        "size_in_bytes": 2805
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_tree.hpp",
+        "path_type": "hardlink",
+        "sha256": "2dbd566db3e8ed3747ebdbd5e05292dcbfe7d3e62e843b87c9c04d54ce51a5ea",
+        "sha256_in_prefix": "2dbd566db3e8ed3747ebdbd5e05292dcbfe7d3e62e843b87c9c04d54ce51a5ea",
+        "size_in_bytes": 5408
+      },
+      {
+        "_path": "include/LightGBM/cuda/cuda_utils.hu",
+        "path_type": "hardlink",
+        "sha256": "7637f9991bf277002289d1f6e202a6e1d47dd63b7e9c280df91922650295a31a",
+        "sha256_in_prefix": "7637f9991bf277002289d1f6e202a6e1d47dd63b7e9c280df91922650295a31a",
+        "size_in_bytes": 6609
+      },
+      {
+        "_path": "include/LightGBM/cuda/vector_cudahost.h",
+        "path_type": "hardlink",
+        "sha256": "133cb10ab00c648c84c048a55c0e9cda3f26d1bc6fe56379a40f213924af09b4",
+        "sha256_in_prefix": "133cb10ab00c648c84c048a55c0e9cda3f26d1bc6fe56379a40f213924af09b4",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "include/LightGBM/dataset.h",
+        "path_type": "hardlink",
+        "sha256": "ae1f848c4e907b26b2f2558767918a2583b9b746523f1a01f5455b3df5bea3a3",
+        "sha256_in_prefix": "ae1f848c4e907b26b2f2558767918a2583b9b746523f1a01f5455b3df5bea3a3",
+        "size_in_bytes": 37728
+      },
+      {
+        "_path": "include/LightGBM/dataset_loader.h",
+        "path_type": "hardlink",
+        "sha256": "bafe6c9cd4a3dac8203ceac25689c83e09504be33e19ab1a0032f18ca7b257ea",
+        "sha256_in_prefix": "bafe6c9cd4a3dac8203ceac25689c83e09504be33e19ab1a0032f18ca7b257ea",
+        "size_in_bytes": 4754
+      },
+      {
+        "_path": "include/LightGBM/export.h",
+        "path_type": "hardlink",
+        "sha256": "bc1f7bbe99cd0a53896f05ed393cea48fa6ea40fe2a440a065c395d0be281a21",
+        "sha256_in_prefix": "bc1f7bbe99cd0a53896f05ed393cea48fa6ea40fe2a440a065c395d0be281a21",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "include/LightGBM/feature_group.h",
+        "path_type": "hardlink",
+        "sha256": "f08627a47940c4391de2f86a6edffe7a130536892c5c90266eae975a480d4954",
+        "sha256_in_prefix": "f08627a47940c4391de2f86a6edffe7a130536892c5c90266eae975a480d4954",
+        "size_in_bytes": 22808
+      },
+      {
+        "_path": "include/LightGBM/meta.h",
+        "path_type": "hardlink",
+        "sha256": "0c06aabe7848b439e578813b700ce867620e9a4e715c5a94a285412649ec6af0",
+        "sha256_in_prefix": "0c06aabe7848b439e578813b700ce867620e9a4e715c5a94a285412649ec6af0",
+        "size_in_bytes": 2829
+      },
+      {
+        "_path": "include/LightGBM/metric.h",
+        "path_type": "hardlink",
+        "sha256": "f737e019b90b4f992c20ec24994a0503db967cfec59b57d3be40eacaf005c27b",
+        "sha256_in_prefix": "f737e019b90b4f992c20ec24994a0503db967cfec59b57d3be40eacaf005c27b",
+        "size_in_bytes": 4084
+      },
+      {
+        "_path": "include/LightGBM/network.h",
+        "path_type": "hardlink",
+        "sha256": "9386f8375c0bd2a7fff194af55fc5d07afa6752bb553a442f0b9967f30f0814d",
+        "sha256_in_prefix": "9386f8375c0bd2a7fff194af55fc5d07afa6752bb553a442f0b9967f30f0814d",
+        "size_in_bytes": 11956
+      },
+      {
+        "_path": "include/LightGBM/objective_function.h",
+        "path_type": "hardlink",
+        "sha256": "d5f5d7405902efb71cc099f703af41ff1f6f22afe615422682cf1965064ec21f",
+        "sha256_in_prefix": "d5f5d7405902efb71cc099f703af41ff1f6f22afe615422682cf1965064ec21f",
+        "size_in_bytes": 4226
+      },
+      {
+        "_path": "include/LightGBM/prediction_early_stop.h",
+        "path_type": "hardlink",
+        "sha256": "0704f441ee4893bcdc7a05f5101ec75fd4a4f63d17f228a31d134a20b2252c8e",
+        "sha256_in_prefix": "0704f441ee4893bcdc7a05f5101ec75fd4a4f63d17f228a31d134a20b2252c8e",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "include/LightGBM/sample_strategy.h",
+        "path_type": "hardlink",
+        "sha256": "f88f9b60775219d76e18431647732123d89cef4c95a55938c711ec64528e3f03",
+        "sha256_in_prefix": "f88f9b60775219d76e18431647732123d89cef4c95a55938c711ec64528e3f03",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "include/LightGBM/train_share_states.h",
+        "path_type": "hardlink",
+        "sha256": "ca70149f9b8c24e3f24ba1e274c283e5fe951088144b686a74438bb5045e11b9",
+        "sha256_in_prefix": "ca70149f9b8c24e3f24ba1e274c283e5fe951088144b686a74438bb5045e11b9",
+        "size_in_bytes": 14443
+      },
+      {
+        "_path": "include/LightGBM/tree.h",
+        "path_type": "hardlink",
+        "sha256": "40f4ea25d8bc082c84de2c9b8b1534878a1ab893c232da383ef9df4aa4d83fb2",
+        "sha256_in_prefix": "40f4ea25d8bc082c84de2c9b8b1534878a1ab893c232da383ef9df4aa4d83fb2",
+        "size_in_bytes": 26653
+      },
+      {
+        "_path": "include/LightGBM/tree_learner.h",
+        "path_type": "hardlink",
+        "sha256": "48fc812bb40775f0571b2cd2119308f8e89a0b3c38c0a69a8f9968dae67b8b35",
+        "sha256_in_prefix": "48fc812bb40775f0571b2cd2119308f8e89a0b3c38c0a69a8f9968dae67b8b35",
+        "size_in_bytes": 4043
+      },
+      {
+        "_path": "include/LightGBM/utils/array_args.h",
+        "path_type": "hardlink",
+        "sha256": "02590cf4c861b07d2b5795a53286a985005a222d56acb1719da5224806e5436c",
+        "sha256_in_prefix": "02590cf4c861b07d2b5795a53286a985005a222d56acb1719da5224806e5436c",
+        "size_in_bytes": 4946
+      },
+      {
+        "_path": "include/LightGBM/utils/binary_writer.h",
+        "path_type": "hardlink",
+        "sha256": "218a205f2da19bc395aba271a3159ab8cc1092d5aff21d09fc8380b05622019b",
+        "sha256_in_prefix": "218a205f2da19bc395aba271a3159ab8cc1092d5aff21d09fc8380b05622019b",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "include/LightGBM/utils/byte_buffer.h",
+        "path_type": "hardlink",
+        "sha256": "8f6873238e2f98ffd9e4885fd42cca2707e369425f22ff67b5c83b9b519e65f4",
+        "sha256_in_prefix": "8f6873238e2f98ffd9e4885fd42cca2707e369425f22ff67b5c83b9b519e65f4",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "include/LightGBM/utils/chunked_array.hpp",
+        "path_type": "hardlink",
+        "sha256": "d7aaf079469da5992e21bd7ac5628178724d8820b9208d2e83b58e0af11a6e0e",
+        "sha256_in_prefix": "d7aaf079469da5992e21bd7ac5628178724d8820b9208d2e83b58e0af11a6e0e",
+        "size_in_bytes": 8431
+      },
+      {
+        "_path": "include/LightGBM/utils/common.h",
+        "path_type": "hardlink",
+        "sha256": "bbf86e6c96aba08b42b22d8eb7ec1a63f7394727392cea75a3421f2c618bc96c",
+        "sha256_in_prefix": "bbf86e6c96aba08b42b22d8eb7ec1a63f7394727392cea75a3421f2c618bc96c",
+        "size_in_bytes": 33702
+      },
+      {
+        "_path": "include/LightGBM/utils/fast_double_parser.h",
+        "path_type": "hardlink",
+        "sha256": "53d731e1fca46c0dbd2c1d0507b23027f87741ce56651a41fd7c7517f84e7064",
+        "sha256_in_prefix": "53d731e1fca46c0dbd2c1d0507b23027f87741ce56651a41fd7c7517f84e7064",
+        "size_in_bytes": 49886
+      },
+      {
+        "_path": "include/LightGBM/utils/file_io.h",
+        "path_type": "hardlink",
+        "sha256": "f88d820e424c881b4fc8f43a71af51004db2f921df57d4e1511e3931ce36cd61",
+        "sha256_in_prefix": "f88d820e424c881b4fc8f43a71af51004db2f921df57d4e1511e3931ce36cd61",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/args.h",
+        "path_type": "hardlink",
+        "sha256": "cd2a4230a2b95db60f00673743769fe7372f0f708713520cab787173b5055187",
+        "sha256_in_prefix": "cd2a4230a2b95db60f00673743769fe7372f0f708713520cab787173b5055187",
+        "size_in_bytes": 7180
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/base.h",
+        "path_type": "hardlink",
+        "sha256": "c841656f7c8727674a92023881da6114d99bbaa69dd48500e80599fadc1c15dc",
+        "sha256_in_prefix": "c841656f7c8727674a92023881da6114d99bbaa69dd48500e80599fadc1c15dc",
+        "size_in_bytes": 102515
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/chrono.h",
+        "path_type": "hardlink",
+        "sha256": "53b0e6c79fa37f055b5f49ea0c1e7061803b6816c1d4bf56853da4bb61d8555d",
+        "sha256_in_prefix": "53b0e6c79fa37f055b5f49ea0c1e7061803b6816c1d4bf56853da4bb61d8555d",
+        "size_in_bytes": 80038
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/color.h",
+        "path_type": "hardlink",
+        "sha256": "757bbc2f67d6740962b9d9aba56455dc9ab865452face99d1a9afc9f8fe5b5fc",
+        "sha256_in_prefix": "757bbc2f67d6740962b9d9aba56455dc9ab865452face99d1a9afc9f8fe5b5fc",
+        "size_in_bytes": 23338
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/compile.h",
+        "path_type": "hardlink",
+        "sha256": "9b16b51c6041b8d54bf2f872956c644fe19d46ff3e9da7c6c2b7b41718b74f2e",
+        "sha256_in_prefix": "9b16b51c6041b8d54bf2f872956c644fe19d46ff3e9da7c6c2b7b41718b74f2e",
+        "size_in_bytes": 19293
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/core.h",
+        "path_type": "hardlink",
+        "sha256": "b2b6692145b11c7c2774db106078c97575a47d18e80c7783c68566475325ebb4",
+        "sha256_in_prefix": "b2b6692145b11c7c2774db106078c97575a47d18e80c7783c68566475325ebb4",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/format-inl.h",
+        "path_type": "hardlink",
+        "sha256": "02f79502fc57326bbafec8f07c2b664ac0bcb83cb444ee464359dba83c10c36f",
+        "sha256_in_prefix": "02f79502fc57326bbafec8f07c2b664ac0bcb83cb444ee464359dba83c10c36f",
+        "size_in_bytes": 80997
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/format.h",
+        "path_type": "hardlink",
+        "sha256": "bbefaac60745936b6ce9fd1d4eddb7f87c9b435bbe4fc34f01f1720328d1344c",
+        "sha256_in_prefix": "bbefaac60745936b6ce9fd1d4eddb7f87c9b435bbe4fc34f01f1720328d1344c",
+        "size_in_bytes": 157208
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/os.h",
+        "path_type": "hardlink",
+        "sha256": "031ecf02e65aaf1be16de4af179e1b3d11540f88a0989667d5f4138fe93e5938",
+        "sha256_in_prefix": "031ecf02e65aaf1be16de4af179e1b3d11540f88a0989667d5f4138fe93e5938",
+        "size_in_bytes": 12786
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/ostream.h",
+        "path_type": "hardlink",
+        "sha256": "57d2883aa6bc8ab65ac37aecd73d6848ba35a0a6aac728ae36eba51c9bd41e63",
+        "sha256_in_prefix": "57d2883aa6bc8ab65ac37aecd73d6848ba35a0a6aac728ae36eba51c9bd41e63",
+        "size_in_bytes": 4978
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/printf.h",
+        "path_type": "hardlink",
+        "sha256": "7a6ffac354daa137db9a4ed14dd817b7f7b5b6e5ecf46daf27431f41e7b2e5ef",
+        "sha256_in_prefix": "7a6ffac354daa137db9a4ed14dd817b7f7b5b6e5ecf46daf27431f41e7b2e5ef",
+        "size_in_bytes": 20440
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/ranges.h",
+        "path_type": "hardlink",
+        "sha256": "22d81826cd9f1acac501707bc380da1cc7dc71bc83a1d0adfe775a23adeb98c3",
+        "sha256_in_prefix": "22d81826cd9f1acac501707bc380da1cc7dc71bc83a1d0adfe775a23adeb98c3",
+        "size_in_bytes": 28110
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/std.h",
+        "path_type": "hardlink",
+        "sha256": "355d73ee16a6ac9211160a9069a7c6ad30660f1e21a67871adeb8531098d8232",
+        "sha256_in_prefix": "355d73ee16a6ac9211160a9069a7c6ad30660f1e21a67871adeb8531098d8232",
+        "size_in_bytes": 21969
+      },
+      {
+        "_path": "include/LightGBM/utils/fmt/xchar.h",
+        "path_type": "hardlink",
+        "sha256": "b6a64fbc0987e27cc1a202b24d93541845a0cc62d66c35c2dccccadf5fef9059",
+        "sha256_in_prefix": "b6a64fbc0987e27cc1a202b24d93541845a0cc62d66c35c2dccccadf5fef9059",
+        "size_in_bytes": 13838
+      },
+      {
+        "_path": "include/LightGBM/utils/json11.h",
+        "path_type": "hardlink",
+        "sha256": "eb05480a44b76261f1a856b43d4d813ec12d0a3a2b24d8a461f83987a36ab237",
+        "sha256_in_prefix": "eb05480a44b76261f1a856b43d4d813ec12d0a3a2b24d8a461f83987a36ab237",
+        "size_in_bytes": 9042
+      },
+      {
+        "_path": "include/LightGBM/utils/log.h",
+        "path_type": "hardlink",
+        "sha256": "493303087138b511366081c91cdc1ce21dd8772d632f7d7628fbbaf0bec3da35",
+        "sha256_in_prefix": "493303087138b511366081c91cdc1ce21dd8772d632f7d7628fbbaf0bec3da35",
+        "size_in_bytes": 4533
+      },
+      {
+        "_path": "include/LightGBM/utils/openmp_wrapper.h",
+        "path_type": "hardlink",
+        "sha256": "4830ae7a7773e307cd217b0d810e3ffbb2d474829cddd1287fff7e3096f1503b",
+        "sha256_in_prefix": "4830ae7a7773e307cd217b0d810e3ffbb2d474829cddd1287fff7e3096f1503b",
+        "size_in_bytes": 3540
+      },
+      {
+        "_path": "include/LightGBM/utils/pipeline_reader.h",
+        "path_type": "hardlink",
+        "sha256": "acbbd8d1e7dd7c4bb5828fa47fea8555e3574c0cf34e48bac170127756039b52",
+        "sha256_in_prefix": "acbbd8d1e7dd7c4bb5828fa47fea8555e3574c0cf34e48bac170127756039b52",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "include/LightGBM/utils/random.h",
+        "path_type": "hardlink",
+        "sha256": "437e7523eaf965c07d9b81b0a1197be392caa690e004ae040c710955322b1b1e",
+        "sha256_in_prefix": "437e7523eaf965c07d9b81b0a1197be392caa690e004ae040c710955322b1b1e",
+        "size_in_bytes": 2914
+      },
+      {
+        "_path": "include/LightGBM/utils/text_reader.h",
+        "path_type": "hardlink",
+        "sha256": "20a065a001648fec2645abd049df989c8d8e3fcee940593611134951ba568c1e",
+        "sha256_in_prefix": "20a065a001648fec2645abd049df989c8d8e3fcee940593611134951ba568c1e",
+        "size_in_bytes": 11653
+      },
+      {
+        "_path": "include/LightGBM/utils/threading.h",
+        "path_type": "hardlink",
+        "sha256": "d018cff22b727977824c3ec73ef1ace9fb16fb179b62e08518e938808738463b",
+        "sha256_in_prefix": "d018cff22b727977824c3ec73ef1ace9fb16fb179b62e08518e938808738463b",
+        "size_in_bytes": 6626
+      },
+      {
+        "_path": "include/LightGBM/utils/yamc/alternate_shared_mutex.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a9f3ddbc206ea5700eb1429f07b59f536b44e7ccb010ae47ae8c58b9ad56717",
+        "sha256_in_prefix": "2a9f3ddbc206ea5700eb1429f07b59f536b44e7ccb010ae47ae8c58b9ad56717",
+        "size_in_bytes": 6249
+      },
+      {
+        "_path": "include/LightGBM/utils/yamc/yamc_rwlock_sched.hpp",
+        "path_type": "hardlink",
+        "sha256": "7e4ce12cbbc794bc7667f21ba86ce7942d93e9ce4fc9c09bf1903fcdce1dbb27",
+        "sha256_in_prefix": "7e4ce12cbbc794bc7667f21ba86ce7942d93e9ce4fc9c09bf1903fcdce1dbb27",
+        "size_in_bytes": 4343
+      },
+      {
+        "_path": "include/LightGBM/utils/yamc/yamc_shared_lock.hpp",
+        "path_type": "hardlink",
+        "sha256": "f56daa1d3c09a9b2fe757c3e9f90c6a1d4abef822e97c32a705dfbe7757fec73",
+        "sha256_in_prefix": "f56daa1d3c09a9b2fe757c3e9f90c6a1d4abef822e97c32a705dfbe7757fec73",
+        "size_in_bytes": 5050
+      },
+      {
+        "_path": "lib/lib_lightgbm.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/liblightgbm_1748716747735/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "6595c39c461872fb8a81a57f6d805fd7c1bdaf5753dafb0ee870d03102336da9",
+        "sha256_in_prefix": "b2be26e90ac80ca74b7ec6a54498411cd58a057cb2eae8972c8fa82f55d607ef",
+        "size_in_bytes": 6897072
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "99e1d59571861afb739876c799bb023d8e62cc65a0ecd3811062dc81d3d727fe",
+  "size": 1376970,
+  "subdir": "osx-arm64",
+  "timestamp": 1748717234000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/liblightgbm-4.6.0-cpu_h77c5084_2.conda",
+  "version": "4.6.0"
+}
