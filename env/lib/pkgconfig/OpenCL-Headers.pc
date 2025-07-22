@@ -1,7 +1,0 @@
-prefix=/Users/jungheeho/Desktop/DACON/스트레스지수예측/env
-includedir=${prefix}/include
-
-Name: OpenCL-Headers
-Description: Khronos OpenCL Headers
-Version: 3.0
-Cflags: -I${includedir}

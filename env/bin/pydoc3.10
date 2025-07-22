@@ -1,5 +1,0 @@
-#!/Users/jungheeho/Desktop/DACON/스트레스지수예측/env/bin/python3.10
-
-import pydoc
-if __name__ == '__main__':
-    pydoc.cli()
