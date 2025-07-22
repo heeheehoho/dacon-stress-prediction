@@ -1,0 +1,11 @@
+# Python 가상환경 폴더 (예: env, venv)
+env/
+venv/
+
+# __pycache__ 디렉토리와 .pyc 파일
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS 시스템 파일 (선택)
+.DS_Store
