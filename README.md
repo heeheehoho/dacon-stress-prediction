@@ -60,7 +60,7 @@ stress-predict/
 ├── notebook/               # EDA 및 실험용 ipynb
 ├── models/                 # 모델 결과 파일 저장
 ├── submissions/            # 제출 파일 저장
-├── env/                    # Conda 가상환경 (옵션)
+├── .venv/                    # Conda 가상환경 (옵션)
 ├── code.py                 # 학습/추론 스크립트
 └── README.md               # 프로젝트 설명 문서
 ```
